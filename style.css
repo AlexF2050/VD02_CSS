@@ -1,0 +1,25 @@
+body {
+    background-color: MediumSeaGreen
+}
+
+p {
+    background-color: Chartreuse
+}
+
+#test {
+background-color: #1883ff;}
+
+.text34 {background-color: #8918ff;}
+
+.text34 {
+        font-size: 44px;
+        font-family: Andale Mono, cursive;
+        font-weight: 900;
+        width: 50%;
+        height: 100px;
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 20px;
+
+        }

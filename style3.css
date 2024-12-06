@@ -1,0 +1,48 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: MediumSeaGreen;
+    border-radius: 50%;
+}
+
+div:hover{
+    background-color: #0080ff;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+ }
+
+ a:link{
+    color: blue;
+ }
+
+ a:visited{
+    color: red;
+}
+
+ a:active{
+    color: yellow;
+}
+
+h1::first-letter{
+    color: deeppink;
+    font-size: 50px:
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+h2::before{
+    content: "Город ";
+    color: red;
+    font-size: 50px:
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+h3::after{
+    content: " Good ";
+    color: red;
+    font-size: 50px:
+    border-radius: 10px;
+    background-color: bisque;
+}
