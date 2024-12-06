@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 minimum-scale=1.0 user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Мой сайт</title>
-<head>
-    <title>Мой сайт</title>
-    <style>
-        body {
-            background-color: white;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            color: black;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: lightblue;
-        }
-    </style>
+  <title>Хогвартс</title>
+  <link rel="stylesheet" href="styleDZ.css">
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <form>
-        <label for="password">Введите пароль:</label><br>
-        <input type="password" id="password" name="password"><br>
-        <input type="submit" value="Отправить">
-    </form>
-    <table>
-        <tr>
-            <th>Колонка 1</th>
-            <th>Колонка 2</th>
-            <th>Колонка 3</th>
-        </tr>
-        <tr>
-            <td>Ячейка 1</td>
-            <td>Ячейка 2</td>
-            <td>Ячейка 3</td>
-        </tr>
-        <!-- Добавьте остальные строки таблицы -->
-    </table>
-    <button onclick="window.close()">Выключить сайт</button>
-    <script>
-        document.querySelector('form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var password = document.getElementById('password').value;
-            if (password !== '777') {
-                alert('Неверный пароль');
-            } else {
-                window.close();
-            }
-        });
-    </script>
+
+<div class="card">
+   <div class="photo">
+       <img src="GP.png">
+   </div>
+
+   <div class="info">
+       <h1>Гарри Поттер</h1>
+       <p> Город:</p>
+       <h2></h2>
+       <p> Дата рождения: 25.07.1722 </p>
+       <p> E-mail: <a href="mailto:gp@gmail.com">gp@sova.les</a> </p>
+   </div>
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="card">
+   <div class="photo">
+       <img src="DB.png">
+   </div>
+
+   <div class="info">
+       <h1>Альбус Дамблдор</h1>
+       <h4>Город:</h4>
+       <p> </p>
+
+       <p> Дата рождения: 01.01.1280 </p>
+       <p> E-mail: <a href="mailto:gp@gmail.com">db@sova.les</a> </p>
+   </div>
+</div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="card">
+   <div class="photo">
+       <img src="GG.png">
+   </div>
+
+   <div class="info">
+       <h1>Гермиона Грейнджер</h1>
+       <p> Город:</p>
+       <h6></h6>
+       <p> Дата рождения: 07.07.1770 </p>
+       <p> E-mail: <a href="mailto:gg@gmail.com">gg@sova.les</a> </p>
+   </div>
+</div>
+
+
 </body>
 </html>
+
 
 
 
