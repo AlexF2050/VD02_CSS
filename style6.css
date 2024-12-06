@@ -1,0 +1,22 @@
+.card{
+    width: 400px;
+    height: 750px;
+    background-color: MediumSeaGreen;
+    border-radius: 60px;
+}
+
+.photo{
+    height: 40%;
+
+    padding: 85px;
+}
+
+.info{
+    height: 40%;
+    padding: 10px;
+    }
+
+img{
+position: relative;
+left: 1%;
+border-radius: 20px;}

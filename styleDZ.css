@@ -1,0 +1,47 @@
+.card{
+    width: 400px;
+    height: 700px;
+    background-color: MediumSeaGreen;
+    border-radius: 60px;
+}
+
+.photo{
+    height: 40%;
+    padding: 85px;
+}
+
+.info{
+    height: 40%;
+    padding: 10px;
+    }
+
+img{
+position: relative;
+left: 1%;
+border-radius: 20px;}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+div:hover{
+    background-color: #0080ff;
+    border-radius: 120px;
+    transition: 1s;
+     }
+
+h4::after{
+    content: " Orlando ";
+    color: white;
+    font-size: 50px:
+    border-radius: 20px;
+    background-color: #0080ff;
+    }
+
+h4 {
+  text-align: center;
+}
